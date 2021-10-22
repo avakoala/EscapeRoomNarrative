@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - puzzle 2</title>
+  <style>
+h1 {color: gold;} 
+</style>
+<style>
+body {
+  border: 10px dashed gold; margin: 35px; padding: 30px;}
+</style>
+<style> 
+h2 { color:gold}
+</style>
+<style>
+h3 { color:gold}
+</style>
+<link rel='stylesheet' href='https://fonts.googleapis.com'>
+<link rel='stylesheet' href='https://fonts.gstatic.com'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&amp;display=swap'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Abril+Fatface&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="background" style= background-color:lemonchiffon;>
+ 
+<h1 style="text-align:center;">FAMOUS FILES</h1>
+
+<h3 id="puzzle2"> <strong> Puzzle 2 </strong> </h3>
+  <p>
+  Congratulations, you found the first clue! We still have little information on who the star is though. We now know that the star is a male so let's check the Walk of Fame office records for how many males have a star. Find the right file and decode the top secret writing using keyboard code. You may need a piece of paper to write on for this puzzle.
+  <br>  
+  <!-- Trigger/Open The Modal -->
+<button class="button button1" id="myBtn">RECORDS</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>   
+    
+  </p>
+<!-- <!-- PASSWORD TEXTBOX FOR PUZZLE 2 -->
+
+ <p>Find the file that forms a word. Enter below.</p>
+ <p>TOP SECRET:<input id="passwordBox" type="password"/></p>
+ <a href="https://avakoala.github.io/EscapeRoomNarrative/puzzle3.html" onclick="return checkPassword();">
+  SUBMIT 
+ </a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
