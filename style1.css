@@ -4,15 +4,17 @@ img {
   margin-right: auto;
   width: 60%;}
 
+/* paragraph font */
 p {font-family: 'Lato', sans-serif;}
-
+/* heading font */
 h3 {font-family: 'Abril Fatface', cursive;}
-
+/* nav font */
 nav {font-size: 18px}
-
+/* filter */
 #first {
   opacity: .8; filter: drop-shadow(8px 8px 10px gold);
 }
+/* start of animation */
 .background {
   background-color: lemonchiffon;
   animation-name: bgcolor;
@@ -47,16 +49,16 @@ a:active {
   text-decoration: underline;
 }
 a {font-family: 'Lato', sans-serif;}
-
+/* image filters with ID */
 #second {filter: drop-shadow(8px 8px 10px gold);}
 
 #audio {filter: sepia(100%);}
 
 #third {filter: drop-shadow(8px 8px 10px gold);}
 #fourth {filter: drop-shadow(8px 8px 10px gold);}
-
+/* audio box filter */
 #audio2 {filter: sepia(100%);}
-
+/* button for files */
 .button {
   border: none;
   color: white;
@@ -125,7 +127,7 @@ a {font-family: 'Lato', sans-serif;}
   height: 150px;
 }
 
-/* Add Animation */
+/* Animation */
 .modal-content, #caption {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
