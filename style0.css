@@ -4,15 +4,18 @@ img {
   margin-right: auto;
   width: 60%;}
 
+/* paragraph font */
 p {font-family: 'Lato', sans-serif;}
 
 h3 {font-family: 'Abril Fatface', cursive;}
 
 nav {font-size: 18px}
 
+/* filter on top image */
 #first {
   opacity: .8; filter: drop-shadow(8px 8px 10px gold);
 }
+/* background animation */
 .background {
   background-color: lemonchiffon;
   animation-name: bgcolor;
@@ -47,14 +50,14 @@ a:active {
   text-decoration: underline;
 }
 a {font-family: 'Lato', sans-serif;}
-
+/* image filters with ID */
 #second {filter: drop-shadow(8px 8px 10px gold);}
 
 #audio {filter: sepia(100%);}
 
 #third {filter: drop-shadow(8px 8px 10px gold);}
 #fourth {filter: drop-shadow(8px 8px 10px gold);}
-
+/* audio filter */
 #audio2 {filter: sepia(100%);}
 
 .button {
