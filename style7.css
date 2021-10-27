@@ -3,16 +3,17 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 60%;}
-
+/* font styles */ 
 p {font-family: 'Lato', sans-serif;}
 
 h3 {font-family: 'Abril Fatface', cursive;}
 
 nav {font-size: 18px}
-
+/* filter */
 #first {
   opacity: .8; filter: drop-shadow(8px 8px 10px gold);
 }
+/* animation */ 
 .background {
   background-color: lemonchiffon;
   animation-name: bgcolor;
@@ -47,7 +48,7 @@ a:active {
   text-decoration: underline;
 }
 a {font-family: 'Lato', sans-serif;}
-
+/* filters for images and audio */
 #second {filter: drop-shadow(8px 8px 10px gold);}
 
 #audio {filter: sepia(100%);}
@@ -56,7 +57,7 @@ a {font-family: 'Lato', sans-serif;}
 #fourth {filter: drop-shadow(8px 8px 10px gold);}
 
 #audio2 {filter: sepia(100%);}
-
+/* button */ 
 .button {
   border: none;
   color: white;
@@ -81,7 +82,7 @@ a {font-family: 'Lato', sans-serif;}
   color: white;
 }
 
-
+/* more filter stuff */ 
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -125,7 +126,7 @@ a {font-family: 'Lato', sans-serif;}
   height: 150px;
 }
 
-/* Add Animation */
+/* animation */
 .modal-content, #caption {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
