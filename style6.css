@@ -3,16 +3,17 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 60%;}
-
+/* font styles */
 p {font-family: 'Lato', sans-serif;}
 
 h3 {font-family: 'Abril Fatface', cursive;}
 
 nav {font-size: 18px}
-
+/* filter */
 #first {
   opacity: .8; filter: drop-shadow(8px 8px 10px gold);
 }
+/* animation */
 .background {
   background-color: lemonchiffon;
   animation-name: bgcolor;
@@ -46,8 +47,9 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+/* link font */
 a {font-family: 'Lato', sans-serif;}
-
+/* filters for images */
 #second {filter: drop-shadow(8px 8px 10px gold);}
 
 #audio {filter: sepia(100%);}
@@ -125,7 +127,7 @@ a {font-family: 'Lato', sans-serif;}
   height: 150px;
 }
 
-/* Add Animation */
+/* background animation */
 .modal-content, #caption {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
